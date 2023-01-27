@@ -1,0 +1,21 @@
+TEST CustomerProcessingApp customer.csv address.csv
+Question_1 599
+Question_2 [Customer{customerId=1, storeId=1, firstName='MARY', lastName='SMITH', email='MARY.SMITH@sakilacustomer.org', addressId=5, active=true, createDate=2/14/2006 22:04:36, lastUpdate=2/15/2006 4:57:20}, Customer{customerId=2, storeId=1, firstName='PATRICIA', lastName='JOHNSON', email='PATRICIA.JOHNSON@sakilacustomer.org', addressId=6, active=true, createDate=2/14/2006 22:04:36, lastUpdate=2/15/2006 4:57:20}, Customer{customerId=3, storeId=1, firstName='LINDA', lastName='WILLIAMS', email='LINDA.WILLIAMS@sakilacustomer.org', addressId=7, active=true, createDate=2/14/2006 22:04:36, lastUpdate=2/15/2006 4:57:20}, Customer{customerId=4, storeId=2, firstName='BARBARA', lastName='JONES', email='BARBARA.JONES@sakilacustomer.org', addressId=8, active=true, createDate=2/14/2006 22:04:36, lastUpdate=2/15/2006 4:57:20}, Customer{customerId=5, storeId=1, firstName='ELIZABETH', lastName='BROWN', email='ELIZABETH.BROWN@sakilacustomer.org', addressId=9, active=true, createDate=2/14/2006 22:04:36, lastUpdate=2/15/2006 4:57:20}]
+Question_3 [Customer{customerId=595, storeId=1, firstName='TERRENCE', lastName='GUNDERSON', email='TERRENCE.GUNDERSON@sakilacustomer.org', addressId=601, active=true, createDate=2/14/2006 22:04:37, lastUpdate=2/15/2006 4:57:20}, Customer{customerId=596, storeId=1, firstName='ENRIQUE', lastName='FORSYTHE', email='ENRIQUE.FORSYTHE@sakilacustomer.org', addressId=602, active=true, createDate=2/14/2006 22:04:37, lastUpdate=2/15/2006 4:57:20}, Customer{customerId=597, storeId=1, firstName='FREDDIE', lastName='DUGGAN', email='FREDDIE.DUGGAN@sakilacustomer.org', addressId=603, active=true, createDate=2/14/2006 22:04:37, lastUpdate=2/15/2006 4:57:20}, Customer{customerId=598, storeId=1, firstName='WADE', lastName='DELVALLE', email='WADE.DELVALLE@sakilacustomer.org', addressId=604, active=true, createDate=2/14/2006 22:04:37, lastUpdate=2/15/2006 4:57:20}, Customer{customerId=599, storeId=2, firstName='AUSTIN', lastName='CINTRON', email='AUSTIN.CINTRON@sakilacustomer.org', addressId=605, active=true, createDate=2/14/2006 22:04:37, lastUpdate=2/15/2006 4:57:20}]
+Question_4 584
+Question_5 0.97
+Question_6 [1, 34, 51, 52, 75, 92, 105, 126, 127, 144, 158, 163, 165, 178, 195, 204, 228, 254, 268, 279, 283, 302, 303, 320, 321, 328, 330, 346, 347, 353, 365, 375, 384, 387, 396, 397, 404, 405, 424, 425, 435, 443, 462, 471, 497, 498, 506, 521, 526, 561, 562, 585, 586, 587]
+Question_7 EDNA.WEST@sakilacustomer.org
+Question_8 [Customer{customerId=86, storeId=2, firstName='JACQUELINE', lastName='LONG', email='JACQUELINE.LONG@sakilacustomer.org', addressId=90, active=true, createDate=2/14/2006 22:04:36, lastUpdate=2/15/2006 4:57:20}, Customer{customerId=309, storeId=1, firstName='CHRISTOPHER', lastName='GRECO', email='CHRISTOPHER.GRECO@sakilacustomer.org', addressId=314, active=true, createDate=2/14/2006 22:04:37, lastUpdate=2/15/2006 4:57:20}]
+Question_9 [ANN.EVANS@sakilacustomer.org, ANNETTE.OLSON@sakilacustomer.org, IDA.ANDREWS@sakilacustomer.org, ALMA.AUSTIN@sakilacustomer.org, ELLA.OLIVER@sakilacustomer.org, OSCAR.AQUINO@sakilacustomer.org, ISAAC.OGLESBY@sakilacustomer.org]
+Question_10 {1=326, 2=273}
+Question_11 9
+Question_12 597
+Question_13 4
+Question_14 1913 Hanoi Way
+Question_15 9
+Question_16 [1, 2, 3, 4]
+Question_17 [MARY SMITH @ 1913 Hanoi Way, PATRICIA JOHNSON @ 1121 Loja Avenue, LINDA WILLIAMS @ 692 Joliet Street, BARBARA JONES @ 1566 Inegl Manor, ELIZABETH BROWN @ 53 Idfu Parkway]
+Question_18 100
+Question_19 Address{addressId=63, address='1213 Ranchi Parkway', address2='""', district='Karnataka', cityId=350, postalCode='94352', phone='"800024380485"', location='"POINT (766456911 13.5639657)"', lastUpdate='9/25/2014 22:31:21'}
+Question_20 Safadi
