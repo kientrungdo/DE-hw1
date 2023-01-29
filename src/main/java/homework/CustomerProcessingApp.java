@@ -56,8 +56,9 @@ public class CustomerProcessingApp {
 	// round the number
 	@Question(5)
 	public double test5() {
-		return Utilities.round(this.customers.stream()
-				.filter(x -> x.isActive()==true).count() / this.customers.size() * 100);
+		// The reason (float) goes first: the division alone would return 0
+		return Utilities.round((float) this.customers.stream()
+				.filter(x -> x.isActive()==true).count() / this.customers.size());
 	}
 
 	// report ids of customers whose last names start with letter S
@@ -157,7 +158,7 @@ public class CustomerProcessingApp {
 	@Question(17)
 	public List<String> test17() {
 		return this.customers.stream()
-				.map(x -> x.getFirstName() + " " + x.getLastName() + " @ " 
+				.limit(5).map(x -> x.getFirstName() + " " + x.getLastName() + " @ " 
 						+ this.addresses.stream().filter(y -> y.getAddressId() == x.getAddressId()).map(y -> y.getAddress()).collect(Collectors.toList()).get(0))
 				.collect(Collectors.toList());
 	}
